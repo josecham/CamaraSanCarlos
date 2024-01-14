@@ -6,3 +6,167 @@ a {
     text-decoration: none;
     
   }  
+
+/* FOOTER */
+
+footer{
+  background-color: rgb(164, 163, 163);
+}
+
+/* HEADER */
+
+
+
+.headerEncabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 0.5rem;
+
+  color: white;
+  background-color: rgb(71, 70, 70);
+}
+
+.headerNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding-top: 1.6rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 0.7rem;
+
+  background-color: rgb(164, 163, 163);
+}
+
+.ulNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.liNavbar {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(203, 202, 202);
+}
+
+.liNavbar:hover {
+  color: wheat;
+  background-color: gray;
+}
+
+
+
+
+/* ====== SECCIÓN DEL INICIO ====== */
+
+
+/* Div Imagen */
+
+.divImg {
+  background-image: url(../img/uvassinblur.png);
+  background-repeat: no-repeat;
+  background-position: center center /*fixed*/;
+  background-size: cover;
+}
+
+.h1Inicio {
+  padding-top: 5rem;
+  padding-left: 5rem;
+}
+
+.pInicio {
+  padding-top: 1.6rem;
+  padding-left: 5rem;
+  padding-bottom: 11rem;
+}
+
+/* Div Carrusel */
+
+.divCarrusel {
+  margin-top: 4rem;
+}
+
+
+/* ====== SECCIÓN DE SERVICIOS ====== */
+
+.boxServicios {
+  margin: 4rem;
+}
+
+.boxArticulosServicios {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cards */
+
+.articuloServicios { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: solid black 1px;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.divCard {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+
+/* --- SECCIÓN DEL FOOTER --- */
+
+.footerStyle{
+  background-color: #0972A3;
+}
+.footerStyle1{
+  background-color: #01628F;
+}
+/* --- SECCIÓN AGREGADO AL PROYECTO --- */
+
+.divImg1 {
+  background-image: url(../img/a.png);
+  background-repeat: no-repeat;
+  background-position: center center /*fixed*/;
+  background-size: cover;
+}
+
+/* INPUT */
+input:focus{
+  height: 100px;
+  font-size:30px;
+}
+
+.p1{
+  color:white;
+}
+
+.botonEnviar{
+  background-color: #FFD600;
+}
+
+.verdeOscuro{
+  background-color: #0C3A2F;
+}
+
+body {
+  margin: 0;
+  
+}
+
+footer {
+  margin: 0;
+}
+
+.verdeClaro{
+  background-color: #459A57;
+}
