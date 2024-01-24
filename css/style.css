@@ -64,12 +64,7 @@ a {
 
 /* Div Imagen */
 
-.divImg {
-  background-image: url(../img/uvassinblur.png);
-  background-repeat: no-repeat;
-  background-position: center center /*fixed*/;
-  background-size: cover;
-}
+
 
 .h1Inicio {
   padding-top: 5rem;
@@ -138,11 +133,12 @@ a {
   background-size: cover;
 }
 
-
+/* Lo quitamos
 input:focus{
   height: 100px;
   font-size:30px;
 }
+*/
 
 .p1{
   color:white;
@@ -154,5 +150,14 @@ input:focus{
 
 .verdeOscuro{
   background-color: #0C3A2F;
+}
+
+/* --- ULTIMO AGREGADO--- */
+
+.divImg2 {
+  background-image: url(../img/uvassinblur.png);
+  background-repeat: no-repeat;
+  background-position: center center /*fixed*/;
+  background-size: cover;
 }
 

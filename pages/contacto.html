@@ -22,13 +22,12 @@
 
          
 
-          <div class="card text-bg-secondary" style="max-width: 32rem; margin-left: 5px; padding-bottom: 30px;padding-top: 30px;">
+          <div class="card text-bg-secondary" style="max-width: 32rem; margin-left: 5px; padding-bottom: 10px;padding-top: 10px;">
             
             <div class="card-body" >
               
               <p class="card-text">Correo Camara: camtipcsancarlos@gmail.com</p>
               <p class="card-text">Teléfono Camara: 5492622276624</p>
-              <p class="card-text">Horario de Atención: </p>
             </div>
           </div>
             
@@ -40,7 +39,7 @@
 <fieldset>
     <form  class="row g-3 needs-validation mt-3" onsubmit="datos(event)" action="https://formsubmit.co/camtipcsancarlos@gmail.com" method="POST">
       <div class="col-md-12">
-        <label  class="form-label">Nombre y apellido</label>
+        <label  class="form-label">Nombre y apellido *</label>
         <input type="text" name="nombre" class="form-control form-control-lg" id="nombre" required style="color:white; background-color: grey;">
         <div class="valid-feedback">
           Looks good!
@@ -48,12 +47,12 @@
       </div>
     
       <div class="col-md-12">
-        <label  class="form-label">Email</label>
+        <label  class="form-label">Email *</label>
         <input type="email"  name="email" class="form-control form-control-lg" id="correo"  style="color:white; background-color: grey;" >
       </div>
 
       <div class="col-md-12 position-relative">
-        <label for="validationTooltip05" class="form-label">Teléfono</label>
+        <label for="validationTooltip05" class="form-label">Teléfono *</label>
         <input type="text" class="form-control form-control-lg"  name="telefono" id="validationTooltip05" required style="color:white; background-color: grey;">
         <div class="invalid-tooltip">
           Please provide a valid telefono.
@@ -62,14 +61,14 @@
 
       <div class="col-md-12">
         <label for="validationCustom02" class="form-label">Negocio/empresa</label>
-        <input type="text"  name="empresa" class="form-control form-control-lg" id="validationCustom02" value="campo no obligatorio" required style="color:white; background-color: grey; ">
+        <input type="text"  name="empresa" class="form-control form-control-lg" id="validationCustom02"  required style="color:white; background-color: grey; ">
         <div class="valid-feedback">
           Looks good!
         </div>
       </div>
 
       <div class="col-md-12">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje *</label>
         <textarea class="form-control form-control-lg"  name="mensaje" id="exampleFormControlTextarea1" rows="3" style="color:white; background-color: grey;font-size:30px; "></textarea>
       </div> 
                   
