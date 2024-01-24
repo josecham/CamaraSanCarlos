@@ -155,7 +155,7 @@ input:focus{
 /* --- ULTIMO AGREGADO--- */
 
 .divImg2 {
-  background-image: url(../img/uvassinblur.png);
+  background-image: url(../img/degrade.png);
   background-repeat: no-repeat;
   background-position: center center /*fixed*/;
   background-size: cover;
